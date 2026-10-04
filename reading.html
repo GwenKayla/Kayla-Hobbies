@@ -1,0 +1,152 @@
+  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Reading</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:#F5F5DC	;
+
+}
+
+/* Style the header */
+header {
+  background-color: #F5F5DC;
+  padding: 5px;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 450px; /* only for demonstration, should be removed */
+  background: #6C5952;
+  padding: 20px;
+ border: 1px solid grey;
+
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #F5F5DC;
+  height: 450px; /* only for demonstration, should be removed */
+ border: 2px solid grey;
+
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #6C5952;
+  padding: 1px;
+  text-align: center;
+ border: 2px solid grey;
+
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+h2 {
+  color:#6C5952;
+}
+p {
+  color:#6C5952 ;
+}
+h1 {
+  color:#6C5952 ;
+}
+
+h4{
+color: #F5F5DC;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55px;
+  background-color:#6C5952;
+}
+a {
+  color:#F5F5DC ;
+}
+
+img{
+border: 1px solid white;
+  border-radius: 25px;
+
+}
+
+</style>
+</head>
+<body>
+
+<header>
+  <h2><b>Reading📚</b></h2>
+</header>
+
+<div class= "center">
+<pre>
+<b><a href="about.html" >About</a>    <a href="resume.html">Hobbies</a></b>
+</pre>
+</div>
+
+
+<section>
+  <nav>
+
+		<pre>
+<img src="reading1.jpg" alt="picture of books" style="width:50%"> <img src="reading2.jpg" alt="picture of books" style="width:50%">
+       <img src="reading3.jpg" alt="picture of books" style="width:30%">  <img src="reading4.jpg" alt="picture of books" style="width:45%">  
+
+		</pre>
+      </nav>
+  
+  <article>
+    <h1>It's sooo ME</h1>
+    <p>I have always loved reading since I was a kid. It all started with a book my tutor at the time gave to me called "Utterly me, Clarice Bean" by Lauren Child. It's such a cute hardcover book about a girl named Clarice Bean and her daily life. I kept rereading that one book as many times as I could. Then I branched out to other books and started reading "The Life and Works of Jose Rizal" by Gregorio F. Zaide and Sonia M. Zaide. From then on my love for reading grew greater and iI started reading the whole Disney encyclopedias belonging to my Father and Aunts. That passions grew over the years but sometimes due to life circumstances I would be in a reading slump, but I always find myself back to myself and reading time and time again.</p>
+<p> My favourite  genres recently are Sci-fi, Fantasy, Horror, Thriller, and Romance. I read physical books, E-books, and even Fanfics on AO3</p>
+
+  </article>
+</section>
+
+	
+<footer>
+  <h4><i>This website was made by Gwen/Kayla in compliance with her Living in the IT Era subject course requirement. After Submission, this website will serve as another one of her hobbies continuously being edited to suit her wants.</i></h4>
+</footer>
+
+</body>
+</html>
+

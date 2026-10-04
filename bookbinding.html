@@ -1,0 +1,162 @@
+  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Bookbinding</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:#F5F5DC;
+
+}
+
+/* Style the header */
+header {
+  background-color: #F5F5DC;
+  padding: 5px;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 450px; /* only for demonstration, should be removed */
+  background:#6C5952 ;
+  padding: 20px;
+ border: 1px solid grey;
+
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #F5F5DC;
+  height: 450px; /* only for demonstration, should be removed */
+ border: 2px solid grey;
+
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #6C5952;
+  padding: 1px;
+  text-align: center;
+  color: white;
+ border: 2px solid grey;
+
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+h2 {
+  color:#6C5952;
+}
+p {
+  color:#6C5952 ;
+}
+h1 {
+  color:#6C5952 ;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55px;
+  background-color:#6C5952;
+}
+a {
+  color:#F5F5DC ;
+}
+
+h4{
+color:#F5F5DC;
+}
+
+img{
+border: 1px solid white;
+  border-radius: 25px;
+
+}
+
+video { 
+
+border: 1px solid white;
+  border-radius: 25px;
+}
+
+</style>
+</head>
+<body>
+
+<header>
+  <h2><b>📑Bookbinding📖</b></h2>
+</header>
+
+<div class= "center">
+<pre>
+<b><a href="about.html" >About</a>    <a href="resume.html">Hobbies</a></b>
+</pre>
+</div>
+
+
+<section>
+  <nav>
+<pre>
+<img src="bookbind3.jpg" alt="picture of books" style="width:38%"> <img src="bookbind1.jpg" alt="picture of books" style="width:49%"> 
+<img src="bookbind2.jpg" alt="picture of books" style="width:40%">   <video width="135" height="218" controls>
+  <source src="whitenights.mp4" type="video/mp4">
+</video>
+
+</pre>
+     </nav>
+  
+  <article>
+    <h1>It's sooo ME</h1>
+    <p>I was bored one time and decided to try bookbinding. I have alot of books I wish to read but iI recognize I do not have enough spare cash to buy every single one. I could try reading them online instead, but I prefer having the physical weight, sight, and smell of a book at my hands.</p> 
+<p>Good timing I already had a book I wanted to bind in my mind which was Book 2 of a series, its called 'Genesis Wars' by Bowman.</p>
+<p> The second and 3rd books I bookbinded were Little Mushroom, and Little Mushroom: revelations.</p>
+<p>The 4th book i bookbinded recently was "White Nights" by Dostoevsky</p>
+
+  </article>
+</section>
+
+	
+<footer>
+  <h4><i>This website was made by Gwen/Kayla in compliance with her Living in the IT Era subject course requirement. After Submission, this website will serve as another one of her hobbies continuously being edited to suit her wants.</h4></p>
+</footer>
+
+</body>
+</html>
+
